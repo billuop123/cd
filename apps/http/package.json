@@ -5,7 +5,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"tsc -b",
-    "start":"bun run index.js",
+    "start":"bun run ./index.ts",
     "dev":"bun run build && bun run start"
   },
   "devDependencies": {
