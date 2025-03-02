@@ -15,7 +15,7 @@ app.post("/add",async (req:any,res:any)=>{
         password:"mrcool10"}
     })
     return res.json({
-        user
+        user:{user}
     })
 })
 app.get("/users",async(req:any,res:any)=>{
